@@ -1,0 +1,39 @@
+<a href="https://repl.it/community/classrooms/20690">These</a>
+
+
+
+  <label for="" id="one">Numbers One</label>
+  <label for="" id="two">Numbers Two</label>
+  <label for="" id="three"> Numbers Three</label>
+
+
+
+<script>
+  function modifyText (ele) {
+    return  (content) => {
+      ele.textContent =  `${content}`
+      }
+  }
+(function(){
+function hlp(ele){
+  return document.getElementById(ele)
+}
+const one = hlp('one');
+const two = hlp('two');
+const three = hlp('three');
+})();
+function random(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+let oneTxt = modifyText(one);
+let twoTxt = modifyText(two);
+let threeTxt = modifyText(three);
+// https://javascript.info/settimeout-setinterval
+let timerId = setTimeout(function tick() {
+  oneTxt(Math.round(random(500)));
+  twoTxt(Math.round(random(500)));
+  threeTxt(Math.round(random(500)));
+  timerId = setTimeout(tick, 2000); // (*)
+}, 2000);
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
