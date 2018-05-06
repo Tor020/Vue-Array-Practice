@@ -57,6 +57,40 @@
   export const arr_Multi_Numb = [[24, 34], [2, 7], [85, 34], [19, 11], [100, 35]];
   export const arr_Multi_Numb_String = [[24, 'ted'], [2, 'face'], [85, 'abstract'], [19, 'candlestick'], [100, 'stopsign', 350]];  //regex to remove characters?
 
+  export const kf2weapons =
+
+    {
+      CrovelLight: 49,
+      CrovelHeavy: 86,
+      CrovelAlt: 15,
+      KatanaLight: 68,
+      KatanaHeavy: 90,
+      KatanaAlt: 68,
+      BoneLight: 80,
+      BoneHeavy: 165,
+      BoneAlt: 175,
+      PulverizerLight: 70,
+      PulverizerHeavy: 145,
+      PulverizerAlt: 528,
+      ZweiLight: 85,
+      ZweiHeavy: 195,
+      ZweiAlt: 63,
+      VLAD: 30,
+      EvisceratorPrimary: 480,
+      EvisceratorStab: 90,
+      EvisceratorChain: 29,
+
+      weaponsMisc: {
+        PELLETS: {
+          VLAD: 7
+        }
+      }
+    };
+
+
+
+
+
 export const arr_Obj_animals = [
   {
     PolarBear: {
