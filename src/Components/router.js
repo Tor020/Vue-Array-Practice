@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router';
 import Home from './Home.vue';
-import Targets from './Targets.vue';
+import MainArrayTests from './MainArrayTests.vue';
 
 
 
@@ -16,9 +16,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/targets',
-      name: 'targets',
-      component: Targets
+      path: '/MainArrayTests',
+      name: 'MainArrayTests',
+      component: MainArrayTests
     }
   ]
 })
