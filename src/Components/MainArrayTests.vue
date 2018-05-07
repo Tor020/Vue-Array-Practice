@@ -35,9 +35,10 @@
 
 
 <script>
-import { arr_Obj_People } from '../PracticeFiles/Premade-Data/PracticeData.js';
-import { arr_Obj_Inventors } from '../PracticeFiles/Premade-Data/PracticeData.js';
-import { arr_LargeNumb } from '../PracticeFiles/Premade-Data/PracticeData.js';
+//imports
+  import { arr_Obj_People } from '../PracticeFiles/Premade-Data/PracticeData.js';
+  import { arr_Obj_Inventors } from '../PracticeFiles/Premade-Data/PracticeData.js';
+  import { arr_LargeNumb } from '../PracticeFiles/Premade-Data/PracticeData.js';
 
 export default {
   data() {
@@ -74,30 +75,27 @@ export default {
   computed: {},
 
   methods: {
-    runMethod() {
-     
+runMethod() {
+        // Start of Run Method        
+
+
+
+
+
+
+
+        // End of Run Method
     },
 },
-    created() {
-      console.log(this.runMethod());
+created() {
+      console.log(this.runMethod(),  "outputs Undefined if nothing was returned from runMethod() ");
 
     }
-
   }
 
 </script>
-
-
-
-
-
-
-
-
-
 <style lang="sass">
-
-  </style>
+    </style>
 
 
 
