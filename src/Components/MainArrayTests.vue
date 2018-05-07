@@ -35,14 +35,11 @@
 
 
 <script>
-
-  import {arr_Obj_People} from '../PracticeFiles/Premade-Data/PracticeData.js'
-  import {arr_Obj_Inventors} from '../PracticeFiles/Premade-Data/PracticeData.js'
-  import {arr_LargeNumb} from '../PracticeFiles/Premade-Data/PracticeData.js'
+import { arr_Obj_People } from '../PracticeFiles/Premade-Data/PracticeData.js';
+import { arr_Obj_Inventors } from '../PracticeFiles/Premade-Data/PracticeData.js';
+import { arr_LargeNumb } from '../PracticeFiles/Premade-Data/PracticeData.js';
 
 export default {
-
-
   data() {
     return {
       weaponsBase: {
@@ -74,86 +71,20 @@ export default {
     };
   },
 
-
-  computed: {
-
-  },
+  computed: {},
 
   methods: {
-    filterFunction(){
-      
+    runMethod() {
+     
+    },
+},
+    created() {
+      console.log(this.runMethod());
+
     }
 
-    runMethod(){
+  }
 
-        const weapons = [
-          'CrovelLight',
-          'CrovelHeavy',
-          'CrovelAlt',
-          'KatanaLight',
-          'KatanaHeavy',
-          'KatanaAlt',
-          'BoneLight',
-          'BoneHeavy',
-          'BoneAlt',
-          'PulverizerLight',
-          'PulverizerHeavy',
-          'PulverizerAlt',
-          'ZweiLight',
-          'ZweiHeavy',
-          'ZweiAlt',
-          'VLAD',
-          'EvisceratorPrimary',
-          'EvisceratorStab',
-          'EvisceratorChain'
-        ];
-
-      function testProto(){
-       let list = weapons
-
-
-      //Commented Attempts
-        // list.map(i => {
-        //   console.log(i)
-        // })
-
-        // list.filter(i => {
-        //   i ==="VLAD"
-        // })
-
-        // list.reduce(i =>{
-        // if(i === "VLAD") return i
-
-        // })
-
-
-        return list
-      }
-
-
-        console.log(testProto())
-
-
-
-
-      
-    
-
-  },
-},
-
-created(){
-
-this.runMethod()
-  // console.log(arr_Obj_People)
-  // console.log(arr_Obj_Inventors);
-  // console.log(arr_LargeNumb);
-
-}
-
-
-
-};
 </script>
 
 
