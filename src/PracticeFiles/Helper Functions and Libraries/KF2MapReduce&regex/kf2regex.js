@@ -34,7 +34,8 @@ export default {
 
   methods: {
     runMethod() {
-      const weapons = [
+           const ಠ = this;
+      let weapons = [
         'CrovelLight',
         'CrovelHeavy',
         'CrovelAlt',
@@ -54,22 +55,30 @@ export default {
         'EvisceratorPrimary',
         'EvisceratorStab',
         'EvisceratorChain'
-      ]; 
+      ];
 
-    // let reH = new RegExp("Heavy","g")
-    // let reL = new RegExp("Light","g")
+      let reH = /(Heavy)/g;
+      let reL = /(Light)/g;
 
-    let reH = /(Heavy)/g
-    let reL = /(Light)/g
+      let other = weapons.filter(i => {
+        if (reH.test(i) === false) return i;
+      });
 
-
-
-    let result = weapons.filter(i => {
-      if (reH.test(i)) return i; })
-      .map(i => i +="two")
+      let heavy = weapons.filter(i => {
+        if (reH.test(i) === true) 
+          return i;
         
-     
-      return result;
+      });
+
+    console.log(heavy, other);
+
+    heavy = heavy.map(weapon => ({weapon, result: ಠ.mathCompose(ಠ.weaponsBase[weapon], ಠ.plvl)} ))
+   .reduce((accumulator, i) => {
+     accumulator[i.weapon] = i.result;
+     return accumulator;
+   }, {})
+  console.log(heavy);
+  
     },
 },
     created() {
