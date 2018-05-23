@@ -26,4 +26,5 @@ for webpack options list [here](https://github.com/vuejs/vue-cli/blob/dev/docs/c
 - [Full Vue-cli Docs](https://github.com/vuejs/vue-cli/tree/dev/docs)
 - [Vue-cli commands](https://github.com/vuejs/vue-cli/blob/dev/docs/cli.md)
 - Seems to be some weird way of passing options to webpack with [vue-cli](https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md#inspecting-the-projects-webpack-config) 
+- [Actually fucking useful deep explaination into Vue CLI 3+](https://blog.logrocket.com/vue-cli-3-the-deep-dive-41dff070ac4a)
 
