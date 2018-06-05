@@ -139,6 +139,27 @@ function curry (func, ...first) {
 
 /* END FRONT END MASTERS */
 
+      let composeLoop = function(ΦFNTOLOOPΦ, count) {
+        
+        if (count > 50 ) { return console.error('loop too high use <50')} //checks for high number
+
+        function check() {
+          count <= 0 ? rinse() : repeat(); // loop amount is at 0 or less, function returns
+        }
+
+        function rinse() {
+          return;
+        }
+
+        function repeat() {
+          count = count - 1;       // reduces count by 1
+          ΦFNTOLOOPΦ()             // calls function passed in to be looped
+          check();                 // restart check process
+        }
+        check()
+      };
+
+
 /*___________________________________________________*/
 
 // FROM https://medium.com/javascript-scene/composing-software-an-introduction-27b72500d6ea
