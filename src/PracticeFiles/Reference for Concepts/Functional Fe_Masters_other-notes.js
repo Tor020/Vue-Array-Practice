@@ -139,7 +139,7 @@ function curry (func, ...first) {
 
 /* END FRONT END MASTERS */
 
-      let composeLoop = function(ΦFNTOLOOPΦ, count) {
+      let composeLoop1 = function(ΦFNTOLOOPΦ, count) {
         
         if (count > 50 ) { return console.error('loop too high use <50')} //checks for high number
 
@@ -159,6 +159,24 @@ function curry (func, ...first) {
         check()
       };
 
+      let composeLoop2 = function(fnToLoop, count) {
+
+        function repeat(count) {
+
+          if (count === 0) {
+
+            return;
+
+          } else {
+
+            fnToLoop(count);
+            repeat(count - 1);
+          }
+        }
+
+      repeat(count)
+
+      };
 
 /*___________________________________________________*/
 
