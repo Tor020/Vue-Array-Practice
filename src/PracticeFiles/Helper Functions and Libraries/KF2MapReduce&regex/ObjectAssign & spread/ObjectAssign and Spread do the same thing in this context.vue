@@ -79,6 +79,23 @@ export default {
 
 
 //  https://medium.com/@corinnemariekelly/object-assign-vs-spread-operator-577c889dbadc
+
+/*
+    Additional Article on topic  https://medium.com/dailyjs/rewriting-javascript-converting-an-array-of-objects-to-an-object-ec579cafbfc7
+    
+    
+    "to perform the same operation on the original array in one line to find the selected user is super simple:"
+
+const selectedPerson = peopleArray.find(person => person.id === idToSelect)
+"This is a fantastic solution when you need to access the data in one off situations, or if you just prefer your data to stay in the array format."
+    
+    
+"pointed out a killer single line solution that eliminates the return statement and makes fantastic use of the spread operator. "    
+    
+const arrayToObject = (arr, keyField) =>
+  Object.assign({}, ...arr.map(item => ({[item[keyField]]: item})))
+
+*/
 </script>
 
 <style>
