@@ -12,7 +12,7 @@ export default {
   name: 'home',
   components: {
 
-  }
+  },
   
  //   el: '#root' /*the element to bind this to*/,
     data: { 
