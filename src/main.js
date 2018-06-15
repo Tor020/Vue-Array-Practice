@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Main from './Main.vue';
+import App from './App.vue';
 import router from './router';
 
 // import style from './sass/style.scss';
@@ -9,7 +9,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
-  render: h => h(Main)
+  render: h => h(App)
 }).$mount('#root')
 
 

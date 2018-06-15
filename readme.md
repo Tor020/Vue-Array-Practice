@@ -17,6 +17,7 @@ for webpack config example [here](https://github.com/vuejs/vue-cli/blob/dev/docs
 #### Sass
 - [Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
 - [Vue-Docs for Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
+- [scss vs sass](https://stackoverflow.com/questions/5654447/whats-the-difference-between-scss-and-sass)
 
 #### Pug
 - [PrePros Boilerplate HTML](https://github.com/Tor020/preprosboilerplate/tree/master/Dev)

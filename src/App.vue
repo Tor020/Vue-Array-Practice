@@ -1,7 +1,7 @@
 <template lang='pug'>
 div.container
-  div.nav
-  div.sidebar
+  nav.nav
+  nav.sidebar
     ul
       router-link(tag='li' active-class='active' to='/Home')
         a Home   
