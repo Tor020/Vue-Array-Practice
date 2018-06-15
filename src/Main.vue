@@ -18,11 +18,7 @@ div.container
 </template>
 
 <style lang="scss">
-.active{
-    a{
-    background-color:pink;
-  }
-}
+
 .sidebar{
   display:flex;
   
