@@ -1,0 +1,30 @@
+@import './baseUtilities/_boringreset.scss';
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
+html {
+  font-size: 16px;
+}
+
+body {
+
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family:Roboto
+
+}
+
+a {
+  padding:.35rem;
+  transition: 0.7s all;
+
+  &:hover {
+  
+  }
+}
+
+
+input[type='button']{
+  margin: 1rem; 
+  padding:.75rem 1.2rem;
+}

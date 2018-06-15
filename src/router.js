@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router';
-import Home from './Home.vue';
-import MainArrayTests from './MainArrayTests.vue';
+import Home from './Components/Home.vue';
+import MainArrayTests from './Components/MainArrayTests.vue';
+import Debug from './Components/Debug.vue';
 
 
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/MainArrayTests',
       name: 'MainArrayTests',
       component: MainArrayTests
+    },
+    {
+      path: '/Debug',
+      name: 'Debug',
+      component: Debug
     }
   ]
 })

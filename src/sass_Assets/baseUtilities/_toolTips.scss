@@ -1,11 +1,11 @@
+// https://medium.freecodecamp.org/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346
+// https://codepen.io/Tor020/pen/WyGvdm
 
 
 // https://medium.freecodecamp.org/a-step-by-step-guide-to-making-pure-css-tooltips-3d5a3e237346
 // https://codepen.io/Tor020/pen/WyGvdm
 
 /* accompanying HTML
-
-
 
   <button tooltip="Simple Tooltip"> Click Here!! </button>
   <button tooltip="bottom Tooltip " tooltip-position="bottom"> Click Here!! </button>
@@ -14,25 +14,16 @@
   <button tooltip="Right Tooltip ^_^" tooltip-position="right"> Click Here!! </button>
   <button tooltip="Left Tooltip ^_^" tooltip-position="left"> Click Here!! </button>
 
-
 tooltip = content
 tooltip-position = position for tooltip on hover
-
-
-  */
+*/
 
 
 .hasTooltip{
   cursor:help;
 }
 
-button:hover {
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, .2), 0 0 0 1px rgba(0, 0, 0, .08);
-}
-
 [tooltip] {
-  margin: 20px 60px;
-  position: relative;
   display: inline-block;
 }
 
@@ -49,6 +40,32 @@ button:hover {
   opacity: 0;
 }
 
+[tooltip]::after {
+  content: attr(tooltip);
+  position: absolute;
+  left: 50%;
+  top: -6px;
+  transform: translateX(-50%) translateY(-100%);
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: #fff;
+  padding: 4px 2px;
+  font-size: 12px;
+  min-width: 80px;
+  border-radius: 5px;
+  pointer-events: none;
+  padding: 4px 4px;
+  z-index: 99;
+  opacity: 0;
+}
+[tooltip]:hover::after,
+[tooltip]:hover::before {
+  opacity: 1;
+  transition: all 0.5s;
+  transition-delay: 1s;
+
+}
+/*
 [tooltip-position='left']::before {
   left: 0%;
   top: 50%;
@@ -71,25 +88,6 @@ button:hover {
   top: 50%;
   margin-left: 1px;
   transform: translatey(-50%) rotate(90deg)
-}
-
-[tooltip]::after {
-  content: attr(tooltip);
-  position: absolute;
-  left: 50%;
-  top: -6px;
-  transform: translateX(-50%) translateY(-100%);
-  background: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  color: #fff;
-  padding: 4px 2px;
-  font-size: 12px;
-  min-width: 80px;
-  border-radius: 5px;
-  pointer-events: none;
-  padding: 4px 4px;
-  z-index: 99;
-  opacity: 0;
 }
 
 [tooltip-position='left']::after {
@@ -115,11 +113,4 @@ button:hover {
   margin-left: 8px;
   transform: translateX(0%) translateY(-50%);
 }
-
-[tooltip]:hover::after,
-[tooltip]:hover::before {
-  opacity: 1;
-  transition: all 0.5s;
-  transition-delay: 1s;
-
-}
+*/

@@ -1,0 +1,13 @@
+.pugdiv.container
+  div.nav
+  div.sidebar
+    ul
+      router-link(tag='li' active-class='active' to='/Home')
+        a Home   
+      router-link(tag='li' active-class='active' to='/MainArrayTests')
+        a Main Array Tests
+      hr
+      router-link(tag='li' active-class='active' to='/MainArrayTests')
+        a Main Array Tests
+  router-view
+

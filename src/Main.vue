@@ -1,17 +1,30 @@
-<template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/MainArrayTests">Main Array Tests</router-link>
-    </div>
+<template lang='pug'>
+div.container
+  div.nav
+  div.sidebar
+    ul
+      router-link(tag='li' active-class='active' to='/Home')
+        a Home   
+      router-link(tag='li' active-class='active' to='/MainArrayTests')
+        a Main Array Tests
+      hr
+      router-link(tag='li' active-class='active' to='/Debug')
+        a Debug
+  router-view
 
-    
-    <router-view/>
-  </div>
+
 
 
 </template>
 
 <style lang="scss">
-
+.active{
+    a{
+    background-color:pink;
+  }
+}
+.sidebar{
+  display:flex;
+  
+}
 </style>

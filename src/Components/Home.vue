@@ -1,8 +1,8 @@
-<template>
-  <div class="home">
-    <img src="../sass_Assets/Assets/logo.png">
+<template lang='pug'>
 
-  </div>
+  div.main
+  
+
 </template>
 
 <script>

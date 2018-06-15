@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Main from './Main.vue';
-import router from './Components/router';
+import router from './router';
 
 // import style from './sass/style.scss';
 // import style from './assets/sass/style.scss'
