@@ -2,8 +2,17 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
+
+
+
+// https://github.com/jgthms/bulma-website/issues/25
+// https://github.com/jgthms/bulma/issues/1651
 // import style from './sass/style.scss';
 // import style from './assets/sass/style.scss'
+// import 
+
+
+
 import style from './sass_Assets/style.scss';
 Vue.config.productionTip = false;
 
