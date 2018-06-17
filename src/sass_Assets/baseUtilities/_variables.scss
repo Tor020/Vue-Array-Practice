@@ -2,13 +2,13 @@
 $font-Headline:'Montserrat', sans-serif;
 $font-Body:'Roboto', sans-serif;
 
-$twitteraccentred:#e81c4f;
-$twitteraccentblue:#1b95e0;
-$twitteraccentgreen:rgb(25, 204, 132);
-$twitteraccentorange:#ff691f;
-$twitteraccentpurple:#981ceb;
+$twitteraccentred:hsl(345, 82%, 51%);
+$twitteraccentblue:hsl(203, 78%, 49%);
+$twitteraccentgreen:hsl(156, 78%, 45%);
+$twitteraccentorange:hsl(20, 100%, 56%);
+$twitteraccentpurple:hsl(276, 84%, 52%);
 
-$content:rgba(255, 255, 255, 0.8);
+$content:hsla(0, 0%, 100%, 0.8);
 
 $accent:$twitteraccentgreen;
 

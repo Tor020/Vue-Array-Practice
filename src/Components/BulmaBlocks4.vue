@@ -1,9 +1,8 @@
 <template lang="pug">
-div
-  input(type='button' value='checkಠ' @click='ಠ()')
-  input(type='button' value ='clearΦ' @click='Φ()')
-  input(type='button' value ='darkᛥ' @click='ᛥ()')
-  input(type='button' value ='lightѼ' @click='Ѽ()')
+div.container
+  hr 
+  li
+    a(href='https://bulma.io/documentation/layout/') Layout
 
 </template>
 
@@ -53,7 +52,7 @@ runMethod() {
     },
 },
 created() {
-      console.log(this.runMethod(),  "outputs Undefined if nothing was returned from runMethod() ");
+      console.log(this.runMethod(),  "This is BB 4");
 
     }
     
