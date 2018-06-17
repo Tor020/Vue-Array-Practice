@@ -2,6 +2,22 @@
 div
   hr
 
+  ul
+    li
+      a(href='https://bulma.io/documentation/columns/basics') Basics
+    li
+      a(href='https://bulma.io/documentation/columns/sizes') Sizes
+    li
+      a(href='https://bulma.io/documentation/columns/responsiveness') Responsiveness
+    li
+      a(href='https://bulma.io/documentation/columns/nesting') Nesting
+    li
+      a(href='https://bulma.io/documentation/columns/gap') Gap
+    li
+      a(href='https://bulma.io/documentation/columns/options') Options
+
+      
+  hr
   li 
     a(href='https://bulma.io/documentation/columns/options/#centering-columns') centering cols docs
   li 
@@ -9,7 +25,7 @@ div
   li
     a(href='https://bulma.io/documentation/columns/gap/') Gap Between Columns Docs
   .columns
-    .column 
+    .column  
       | Building a columns layout with Bulma is very simple:
     .column
       | Add a columns container
@@ -287,7 +303,17 @@ created() {
   }
 
 </script>
-<style lang="sass">
+<style lang="scss" scoped>
+ul{
+  li{
+    a{
+      color:hsl(345, 82%, 51%);
+      margin:2rem;
+      padding:2rem;
+    }
+  }
+}
+
     </style>
 
 

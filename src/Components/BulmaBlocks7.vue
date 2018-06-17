@@ -3,6 +3,28 @@ div.container
   hr 
   li
     a(href='https://bulma.io/documentation/Components/') Components
+  p
+  ul
+    li
+      a(href='https://bulma.io/documentation/components/breadcrumb') Breadcrumb 
+    li
+      a(href='https://bulma.io/documentation/components/card') Card 
+    li
+      a(href='https://bulma.io/documentation/components/dropdown') Dropdown 
+    li
+      a(href='https://bulma.io/documentation/components/menu') Menu 
+    li
+      a(href='https://bulma.io/documentation/components/message') Message  
+    li
+      a(href='https://bulma.io/documentation/components/modal') Modal  
+    li
+      a(href='https://bulma.io/documentation/components/navbar') Navbar 
+    li
+      a(href='https://bulma.io/documentation/components/pagination') Pagination 
+    li
+      a(href='https://bulma.io/documentation/components/panel') Panel  
+    li
+      a(href='https://bulma.io/documentation/components/tabs') Tabs 
 
 </template>
 
@@ -14,7 +36,7 @@ export default {
   data() {
     return {
               }
-},
+}, 
   computed: {},
 
   methods: {
@@ -59,7 +81,17 @@ created() {
   }
 
 </script>
-<style lang="sass">
+<style lang="scss" scoped>
+ul{
+  li{
+    a{
+      color:hsl(345, 82%, 51%);
+      margin:2rem;
+      padding:2rem;
+    }
+  }
+}
+
     </style>
 
 
