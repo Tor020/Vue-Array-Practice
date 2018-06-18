@@ -1,0 +1,504 @@
+// vscode-fold=1 
+/* */
+
+  $black :ಠ;
+  $black-bis:ಠ;
+  $black-ter:ಠ;
+  $grey-darker:ಠ;
+  $grey-dark:ಠ;
+  $grey:ಠ;
+  $grey-light:ಠ;
+  $grey-lighter:ಠ;
+  $white-ter:ಠ;
+  $white-bis:ಠ;
+  $white:ಠ;
+  $orange:ಠ;
+  $yellow:ಠ;
+  $green:ಠ;
+  $turquoise:ಠ;
+  $cyan:ಠ;
+  $blue:ಠ;
+  $purple:ಠ;
+  $red:ಠ;
+  $family-sans-serif:ಠ;
+  $family-monospace:ಠ;
+  $render-mode:ಠ;
+  $size-1:ಠ;
+  $size-2:ಠ;
+  $size-3:ಠ;
+  $size-4:ಠ;
+  $size-5:ಠ;
+  $size-6:ಠ;
+  $size-7:ಠ;
+  $weight-light:ಠ;
+  $weight-normal:ಠ;
+  $weight-medium:ಠ;
+  $weight-semibold:ಠ;
+  $weight-bold:ಠ;
+  $gap:ಠ;
+  $tablet:ಠ;
+  $desktop:ಠ;
+  $widescreen:ಠ;
+  $widescreen-enabled:ಠ;
+  $fullhd:ಠ;
+  $fullhd-enabled:ಠ;
+  $easing:ಠ;
+  $radius-small:ಠ;
+  $radius:ಠ;
+  $radius-large:ಠ;
+  $radius-rounded:ಠ;
+  $speed:ಠ;
+  $variable-columns:ಠ;
+
+/* */
+
+
+  $primary:ಠ;
+  $info:ಠ;
+  $success:ಠ;
+  $warning:ಠ;
+  $danger:ಠ;
+  $light:ಠ;
+  $dark:ಠ;
+  $orange-invert:ಠ;
+  $yellow-invert:ಠ;
+  $green-invert:ಠ;
+  $turquoise-invert:ಠ;
+  $cyan-invert:ಠ;
+  $blue-invert:ಠ;
+  $purple-invert:ಠ;
+  $red-invert:ಠ;
+  $primary-invert:ಠ;
+  $info-invert:ಠ;
+  $success-invert:ಠ;
+  $warning-invert:ಠ;
+  $danger-invert:ಠ;
+  $light-invert:ಠ;
+  $dark-invert:ಠ;
+  $background:ಠ;
+  $border:ಠ;
+  $border-hover:ಠ;
+  $text:ಠ;
+  $text-invert:ಠ;
+  $text-light:ಠ;
+  $text-strong:ಠ;
+  $code:ಠ;
+  $code-background:ಠ;
+  $pre:ಠ;
+  $pre-background:ಠ;
+  $link:ಠ;
+  $link-invert:ಠ;
+  $link-visited:ಠ;
+  $link-hover:ಠ;
+  $link-hover-border:ಠ;
+  $link-focus:ಠ;
+  $link-focus-border:ಠ;
+  $link-active:ಠ;
+  $link-active-border:ಠ;
+
+/* */
+
+  $family-primary:ಠ;
+  $family-code:ಠ;
+  $size-small:ಠ;
+  $size-normal:ಠ;
+  $size-medium:ಠ;
+  $size-large:ಠ;
+  $custom-colors:ಠ;
+  $custom-shades:ಠ;
+  $colors:ಠ;
+  $shades:ಠ;
+  $sizes:ಠ;
+
+/* */
+
+  $control-radius:ಠ;
+  $control-radius-small:ಠ;
+  $control-border-width:ಠ;
+  $control-padding-vertical:ಠ;
+  $control-padding-horizontal:ಠ;
+
+/* */
+
+  $body-background-color:ಠ;
+  $body-size:ಠ;
+  $body-rendering:ಠ;
+  $body-family:ಠ;
+  $body-color:ಠ;
+  $body-weight:ಠ;
+  $body-line-height:ಠ;
+
+/* */
+
+  $code-family:ಠ;
+  $code-padding:ಠ;
+  $code-weight:ಠ;
+  $code-size:ಠ;
+
+/* */
+
+  $hr-background-color:ಠ;
+  $hr-height:ಠ;
+  $hr-margin:ಠ;
+
+/* */
+
+  $strong-color:ಠ;
+  $strong-weight:ಠ;
+
+/* */
+
+  $box-color:ಠ;
+  $box-background-color:ಠ;
+  $box-radius:ಠ;
+  $box-shadow:ಠ;
+  $box-padding:ಠ;
+  $box-link-hover-shadow:ಠ;
+  $box-link-active-shadow:ಠ;
+
+/* */
+
+  $button-color:ಠ;
+  $button-background-color:ಠ;
+  $button-border-color:ಠ;
+  $button-border-width:ಠ;
+  $button-padding-vertical:ಠ;
+  $button-padding-horizontal:ಠ;
+  $button-hover-color:ಠ;
+  $button-hover-border-color:ಠ;
+  $button-focus-color:ಠ;
+  $button-focus-border-color:ಠ;
+  $button-focus-box-shadow-size:ಠ;
+  $button-focus-box-shadow-color:ಠ;
+  $button-active-color:ಠ;
+  $button-active-border-color:ಠ;
+  $button-text-color:ಠ;
+  $button-text-hover-background-color:ಠ;
+  $button-text-hover-color:ಠ;
+  $button-disabled-background-color:ಠ;
+  $button-disabled-border-color:ಠ;
+  $button-disabled-shadow:ಠ;
+  $button-disabled-opacity:ಠ;
+  $button-static-color:ಠ;
+  $button-static-background-color:ಠ;
+  $button-static-border-color:ಠ;
+
+/* */
+
+  $content-heading-color:ಠ;
+  $content-heading-weight:ಠ;
+  $content-heading-line-height:ಠ;
+  $content-blockquote-background-color:ಠ;
+  $content-blockquote-border-left:ಠ;
+  $content-blockquote-padding:ಠ;
+  $content-pre-padding:ಠ;
+  $content-table-cell-border:ಠ;
+  $content-table-cell-border-width:ಠ;
+  $content-table-cell-padding:ಠ;
+  $content-table-cell-heading-color:ಠ;
+  $content-table-head-cell-border-width:ಠ;
+  $content-table-head-cell-color:ಠ;
+  $content-table-foot-cell-border-width:ಠ;
+  $content-table-foot-cell-color:ಠ;
+
+/* */
+
+  $input-color:ಠ;
+  $input-background-color:ಠ;
+  $input-border-color:ಠ;
+  $input-shadow:ಠ;
+  $input-hover-color:ಠ;
+  $input-hover-border-color:ಠ;
+  $input-focus-color:ಠ;
+  $input-focus-border-color:ಠ;
+  $input-focus-box-shadow-size:ಠ;
+  $input-focus-box-shadow-color:ಠ;
+  $input-disabled-color:ಠ;
+  $input-disabled-background-color:ಠ;
+  $input-disabled-border-color:ಠ;
+  $input-arrow:ಠ;
+  $input-icon-color:ಠ;
+  $input-icon-active-color:ಠ;
+  $input-radius:ಠ;
+
+/* */
+
+  $file-border-color:ಠ;
+  $file-radius:ಠ;
+  $file-cta-background-color:ಠ;
+  $file-cta-color:ಠ;
+  $file-cta-hover-color:ಠ;
+  $file-cta-active-color:ಠ;
+  $file-name-border-color:ಠ;
+  $file-name-border-style:ಠ;
+  $file-name-border-width:ಠ;
+  $file-name-max-width:ಠ;
+
+/* */
+
+  $label-color:ಠ;
+  $label-weight:ಠ;
+
+/* */
+
+  $help-size:ಠ;
+  $icon-dimensions:ಠ;
+  $icon-dimensions-small:ಠ;
+  $icon-dimensions-medium:ಠ;
+  $icon-dimensions-large:ಠ;
+  $dimensions:ಠ;
+  $notification-background-color:ಠ;
+  $notification-radius:ಠ;
+  $notification-padding:ಠ;
+  $progress-bar-background-color:ಠ;
+  $progress-value-background-color:ಠ;
+
+/* */
+
+  $table-color:ಠ;
+  $table-background-color:ಠ;
+  $table-cell-border:ಠ;
+  $table-cell-border-width:ಠ;
+  $table-cell-padding:ಠ;
+  $table-cell-heading-color:ಠ;
+  $table-head-cell-border-width:ಠ;
+  $table-head-cell-color:ಠ;
+  $table-foot-cell-border-width:ಠ;
+  $table-foot-cell-color:ಠ;
+  $table-row-hover-background-color:ಠ;
+  $table-row-active-background-color:ಠ;
+  $table-row-active-color:ಠ;
+  $table-striped-row-even-background-color:ಠ;
+  $table-striped-row-even-hover-background-color:ಠ;
+
+/* */
+
+  $tag-background-color:ಠ;
+  $tag-color:ಠ;
+  $tag-radius:ಠ;
+  $tag-delete-margin:ಠ;
+
+/* */
+
+  $title-color:ಠ;
+  $title-size:ಠ;
+  $title-weight:ಠ;
+  $title-line-height:ಠ;
+  $title-strong-color:ಠ;
+  $title-strong-weight:ಠ;
+  $title-sub-size:ಠ;
+  $title-sup-size:ಠ;
+
+/* */
+
+  $subtitle-color:ಠ;
+  $subtitle-size:ಠ;
+  $subtitle-weight:ಠ;
+  $subtitle-line-height:ಠ;
+  $subtitle-strong-color:ಠ;
+  $subtitle-strong-weight:ಠ;
+  $subtitle-negative-margin:ಠ;
+
+/* */
+
+  $breadcrumb-item-color:ಠ;
+  $breadcrumb-item-hover-color:ಠ;
+  $breadcrumb-item-active-color:ಠ;
+  $breadcrumb-item-padding-horizontal:ಠ;
+  $breadcrumb-item-separator-color:ಠ;
+
+/* */
+
+  $card-color:ಠ;
+  $card-background-color:ಠ;
+  $card-shadow:ಠ;
+  $card-header-background-color:ಠ;
+  $card-header-color:ಠ;
+  $card-header-shadow:ಠ;
+  $card-header-weight:ಠ;
+  $card-content-background-color:ಠ;
+  $card-footer-background-color:ಠ;
+  $card-footer-border-top:ಠ;
+
+/* */
+
+  $dropdown-content-background-color:ಠ;
+  $dropdown-content-arrow:ಠ;
+  $dropdown-content-offset:ಠ;
+  $dropdown-content-radius:ಠ;
+  $dropdown-content-shadow:ಠ;
+  $dropdown-content-z:ಠ;
+  $dropdown-item-color:ಠ;
+  $dropdown-item-hover-color:ಠ;
+  $dropdown-item-hover-background-color:ಠ;
+  $dropdown-item-active-color:ಠ;
+  $dropdown-item-active-background-color:ಠ;
+  $dropdown-divider-background-color:ಠ;
+
+/* */
+
+  $menu-item-color:ಠ;
+  $menu-item-radius:ಠ;
+  $menu-item-hover-color:ಠ;
+  $menu-item-hover-background-color:ಠ;
+  $menu-item-active-color:ಠ;
+  $menu-item-active-background-color:ಠ;
+  $menu-list-border-left:ಠ;
+  $menu-label-color:ಠ;
+
+/* */
+
+  $message-background-color:ಠ;
+  $message-radius:ಠ;
+  $message-header-background-color:ಠ;
+  $message-header-color:ಠ;
+  $message-header-weight:ಠ;
+  $message-header-padding:ಠ;
+  $message-header-radius:ಠ;
+  $message-body-border-color:ಠ;
+  $message-body-border-width:ಠ;
+  $message-body-color:ಠ;
+  $message-body-padding:ಠ;
+  $message-body-radius:ಠ;
+  $message-body-pre-background-color:ಠ;
+  $message-body-pre-code-background-color:ಠ;
+
+/* */
+
+  $modal-z:ಠ;
+  $modal-background-background-color:ಠ;
+  $modal-content-width:ಠ;
+  $modal-content-margin-mobile:ಠ;
+  $modal-content-spacing-mobile:ಠ;
+  $modal-content-spacing-tablet:ಠ;
+  $modal-close-dimensions:ಠ;
+  $modal-close-right:ಠ;
+  $modal-close-top:ಠ;
+  $modal-card-spacing:ಠ;
+  $modal-card-head-background-color:ಠ;
+  $modal-card-head-border-bottom:ಠ;
+  $modal-card-head-padding:ಠ;
+  $modal-card-head-radius:ಠ;
+  $modal-card-title-color:ಠ;
+  $modal-card-title-line-height:ಠ;
+  $modal-card-title-size:ಠ;
+  $modal-card-foot-radius:ಠ;
+  $modal-card-foot-border-top:ಠ;
+  $modal-card-body-background-color:ಠ;
+  $modal-card-body-padding:ಠ;
+
+/* */
+
+  $navbar-background-color:ಠ;
+  $navbar-box-shadow-size:ಠ;
+  $navbar-box-shadow-color:ಠ;
+  $navbar-height:ಠ;
+  $navbar-padding-vertical:ಠ;
+  $navbar-padding-horizontal:ಠ;
+  $navbar-z:ಠ;
+  $navbar-fixed-z:ಠ;
+  $navbar-item-color:ಠ;
+  $navbar-item-hover-color:ಠ;
+  $navbar-item-hover-background-color:ಠ;
+  $navbar-item-active-color:ಠ;
+  $navbar-item-active-background-color:ಠ;
+  $navbar-item-img-max-height:ಠ;
+  $navbar-burger-color:ಠ;
+  $navbar-tab-hover-background-color:ಠ;
+  $navbar-tab-hover-border-bottom-color:ಠ;
+  $navbar-tab-active-color:ಠ;
+  $navbar-tab-active-background-color:ಠ;
+  $navbar-tab-active-border-bottom-color:ಠ;
+  $navbar-tab-active-border-bottom-style:ಠ;
+  $navbar-tab-active-border-bottom-width:ಠ;
+  $navbar-dropdown-background-color:ಠ;
+  $navbar-dropdown-border-top:ಠ;
+  $navbar-dropdown-offset:ಠ;
+  $navbar-dropdown-arrow:ಠ;
+  $navbar-dropdown-radius:ಠ;
+  $navbar-dropdown-z:ಠ;
+  $navbar-dropdown-boxed-radius:ಠ;
+  $navbar-dropdown-boxed-shadow:ಠ;
+  $navbar-dropdown-item-hover-color:ಠ;
+  $navbar-dropdown-item-hover-background-color:ಠ;
+  $navbar-dropdown-item-active-color:ಠ;
+  $navbar-dropdown-item-active-background-color:ಠ;
+  $navbar-divider-background-color:ಠ;
+  $navbar-divider-height:ಠ;
+  $navbar-bottom-box-shadow-size:ಠ;
+
+/* */
+
+  $pagination-color:ಠ;
+  $pagination-border-color:ಠ;
+  $pagination-margin:ಠ;
+  $pagination-hover-color:ಠ;
+  $pagination-hover-border-color:ಠ;
+  $pagination-focus-color:ಠ;
+  $pagination-focus-border-color:ಠ;
+  $pagination-active-color:ಠ;
+  $pagination-active-border-color:ಠ;
+  $pagination-disabled-color:ಠ;
+  $pagination-disabled-background-color:ಠ;
+  $pagination-disabled-border-color:ಠ;
+  $pagination-current-color:ಠ;
+  $pagination-current-background-color:ಠ;
+  $pagination-current-border-color:ಠ;
+  $pagination-ellipsis-color:ಠ;
+
+/* */
+
+  $panel-item-border:ಠ;
+  $panel-heading-background-color:ಠ;
+  $panel-heading-color:ಠ;
+  $panel-heading-line-height:ಠ;
+  $panel-heading-padding:ಠ;
+  $panel-heading-radius:ಠ;
+  $panel-heading-size:ಠ;
+  $panel-heading-weight:ಠ;
+  $panel-tab-border-bottom:ಠ;
+  $panel-tab-active-border-bottom-color:ಠ;
+  $panel-tab-active-color:ಠ;
+  $panel-list-item-color:ಠ;
+  $panel-list-item-hover-color:ಠ;
+  $panel-block-color:ಠ;
+  $panel-block-hover-background-color:ಠ;
+  $panel-block-active-border-left-color:ಠ;
+  $panel-block-active-color:ಠ;
+  $panel-block-active-icon-color:ಠ;
+  $panel-icon-color:ಠ;
+
+/* */
+
+  $tabs-border-bottom-color:ಠ;
+  $tabs-border-bottom-style:ಠ;
+  $tabs-border-bottom-width:ಠ;
+  $tabs-link-color:ಠ;
+  $tabs-link-hover-border-bottom-color:ಠ;
+  $tabs-link-hover-color:ಠ;
+  $tabs-link-active-border-bottom-color:ಠ;
+  $tabs-link-active-color:ಠ;
+  $tabs-link-padding:ಠ;
+  $tabs-boxed-link-radius:ಠ;
+  $tabs-boxed-link-hover-background-color:ಠ;
+  $tabs-boxed-link-hover-border-bottom-color:ಠ;
+  $tabs-boxed-link-active-background-color:ಠ;
+  $tabs-boxed-link-active-border-color:ಠ;
+  $tabs-boxed-link-active-border-bottom-color:ಠ;
+  $tabs-toggle-link-border-color:ಠ;
+  $tabs-toggle-link-border-style:ಠ;
+  $tabs-toggle-link-border-width:ಠ;
+  $tabs-toggle-link-hover-background-color:ಠ;
+  $tabs-toggle-link-hover-border-color:ಠ;
+  $tabs-toggle-link-radius:ಠ;
+  $tabs-toggle-link-active-background-color:ಠ;
+  $tabs-toggle-link-active-border-color:ಠ;
+  $tabs-toggle-link-active-color:ಠ;
+
+/* */
+
+  $column-gap:ಠ;
+  $section-padding:ಠ;
+  $section-padding-medium:ಠ;
+  $section-padding-large:ಠ;
+  $footer-background-color:ಠ;

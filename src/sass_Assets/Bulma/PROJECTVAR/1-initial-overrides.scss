@@ -1,98 +1,99 @@
+// vscode-fold=1 
 // Colors
 
-$tablehead:hsl(190, 41%, 17%);  
-$betterbg:hsl(209, 61%, 12%);
-$bodybg:hsl(211, 33%, 16%);
+  $tablehead:hsl(190, 41%, 17%);  
+  $betterbg:hsl(209, 61%, 12%);
+  $bodybg:hsl(211, 33%, 16%);
 
 
-$black: hsl(0, 0%, 4%);
-$black-bis: hsl(0, 0%, 7%);
-$black-ter: hsl(0, 0%, 14%);
+  $black: hsl(0, 0%, 4%);
+  $black-bis: hsl(0, 0%, 7%);
+  $black-ter: hsl(0, 0%, 14%);
 
-$grey-darker: hsl(0, 0%, 21%);
-$grey-dark: hsl(0, 0%, 29%);
-$grey: hsl(0, 0%, 48%);
-$grey-light: hsl(0, 0%, 71%);
-$grey-lighter: hsla(0, 0%, 100%, 0.8);
-
-
-
-$white-ter: hsla(0, 0%, 100%, 0.8);
-$white-bis: hsla(0, 0%, 100%, 0.8);
+  $grey-darker: hsl(0, 0%, 21%);
+  $grey-dark: hsl(0, 0%, 29%);
+  $grey: hsl(0, 0%, 48%);
+  $grey-light: hsl(0, 0%, 71%);
+  $grey-lighter: hsla(0, 0%, 100%, 0.8);
 
 
-$text:hsla(0, 0%, 100%, 0.8);
-$text-light: hsla(0, 0%, 100%, 0.8); 
-$text-strong: hsla(0, 0%, 100%, 0.8); 
+
+  $white-ter: hsla(0, 0%, 100%, 0.8);
+  $white-bis: hsla(0, 0%, 100%, 0.8);
 
 
-$white: hsl(211, 33%, 16%);
-$background:hsl(190, 41%, 17%);
-
-$title-color:$text;
-$subtitle-color:$text;
-
-$box-background-color: $tablehead;
-$message-background-color:$tablehead;
+  $text:hsla(0, 0%, 100%, 0.8);
+  $text-light: hsla(0, 0%, 100%, 0.8); 
+  $text-strong: hsla(0, 0%, 100%, 0.8); 
 
 
-$orange: hsl(20, 100%, 56%);
-$yellow: hsl(48, 88%, 62%);
-$green: hsl(156, 78%, 45%);
-$turquoise: hsl(171, 100%, 41%);
-$blue: hsl(204, 88%, 39%);
-$cyan: hsl(203, 78%, 49%);
-$purple: hsl(271, 100%, 71%);
-$red: hsl(345, 82%, 51%);
+  $white: hsl(211, 33%, 16%);
+  $background:hsl(190, 41%, 17%);
+
+  $title-color:$text;
+  $subtitle-color:$text;
+
+  $box-background-color: $tablehead;
+  $message-background-color:$tablehead;
+
+
+  $orange: hsl(20, 100%, 56%);
+  $yellow: hsl(48, 88%, 62%);
+  $green: hsl(156, 78%, 45%);
+  $turquoise: hsl(171, 100%, 41%);
+  $blue: hsl(204, 88%, 39%);
+  $cyan: hsl(203, 78%, 49%);
+  $purple: hsl(271, 100%, 71%);
+  $red: hsl(345, 82%, 51%);
 
 // Typography
 
-$family-sans-serif: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-$family-monospace: monospace;
-$render-mode: optimizeLegibility;
+  $family-sans-serif: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  $family-monospace: monospace;
+  $render-mode: optimizeLegibility;
 
-$size-1: 3rem;
-$size-2: 2.5rem;
-$size-3: 2rem;
-$size-4: 1.5rem;
-$size-5: 1.25rem;
-$size-6: 1rem;
-$size-7: 0.75rem;
+  $size-1: 3rem;
+  $size-2: 2.5rem;
+  $size-3: 2rem;
+  $size-4: 1.5rem;
+  $size-5: 1.25rem;
+  $size-6: 1rem;
+  $size-7: 0.75rem;
 
-$weight-light: 300;
-$weight-normal: 400;
-$weight-medium: 500;
-$weight-semibold: 600;
-$weight-bold: 700;
+  $weight-light: 300;
+  $weight-normal: 400;
+  $weight-medium: 500;
+  $weight-semibold: 600;
+  $weight-bold: 700;
 
 // Responsiveness
 
-// The container horizontal gap, which acts as the offset for breakpoints
-$gap: 64px;
+  // The container horizontal gap, which acts as the offset for breakpoints
+  $gap: 64px;
 
-// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
-$tablet: 769px;
+  // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+  $tablet: 769px;
 
-// 960px container + 4rem
-$desktop: 960px + 2 * $gap;
+  // 960px container + 4rem
+  $desktop: 960px + 2 * $gap;
 
-// 1152px container + 4rem
-$widescreen: 1152px + 2 * $gap;
-$widescreen-enabled: true;
+  // 1152px container + 4rem
+  $widescreen: 1152px + 2 * $gap;
+  $widescreen-enabled: true;
 
-// 1344px container + 4rem
-$fullhd: 1344px + 2 * $gap;
-$fullhd-enabled: true;
+  // 1344px container + 4rem
+  $fullhd: 1344px + 2 * $gap;
+  $fullhd-enabled: true;
 
 // Miscellaneous
 
-$easing: ease-out;
-$radius-small: 2px;
-$radius: 4px;
-$radius-large: 6px;
-$radius-rounded: 290486px;
-$speed: 86ms;
+  $easing: ease-out;
+  $radius-small: 2px;
+  $radius: 4px;
+  $radius-large: 6px;
+  $radius-rounded: 290486px;
+  $speed: 86ms;
 
 // Flags
 
-$variable-columns: true;
+  $variable-columns: true;
