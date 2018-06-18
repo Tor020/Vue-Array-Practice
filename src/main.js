@@ -1,33 +1,36 @@
 import Vue from 'vue';
+
 import App from './App.vue';
 import router from './router';
 
+import Input from "./InputTest-DeleteLater.vue"
 
 
-
-// https://github.com/jgthms/bulma-website/issues/25
-// https://github.com/jgthms/bulma/issues/1651
-// import style from './sass/style.scss';
-// import style from './assets/sass/style.scss'
-// import 
+import style from './sass_Assets/style.scss';  //retarded error
 
 
-
-import style from './sass_Assets/style.scss';
 Vue.config.productionTip = false;
 
+/* Main Vue Render Call */ 
+
+// new Vue({
+//   router,
+//   render: h => h(App)
+// }).$mount('#root')
+
+/* Main Vue Render Call  */ 
+
+
+
 new Vue({
-  router,
-  render: h => h(App)
+  render: h => h(Input)
 }).$mount('#root')
 
 
-let list = document.querySelectorAll('label.label');
 
 
 
 
-f
 
 
 
