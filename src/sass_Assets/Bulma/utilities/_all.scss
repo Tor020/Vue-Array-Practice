@@ -1,10 +1,27 @@
 @charset "utf-8";
 
-// @import "initial-variables.scss";
-@import "myset.scss";
+/* 1.  Base colors ovverides need to happen after "initial-variables" but before "functions" */ 
+/* 2.  Some Derived colors might need to be overidden manually */ 
+/* 3.  To override some colors for components it's best to do it in one file for organization */ 
+
+
+
+@import "initial-variables.scss";       // /* 1. */
+@import "../PROJECTVAR/1-initial-overrides.scss";     // /* 1. */ 
+
+
 @import "functions.scss";
-@import "myset.scss";
-@import "derived-variables.scss";
+
+
+@import "derived-variables.scss";                      // /* 2. */
+@import "../PROJECTVAR/2-derived-overrides.scss";      // /* 2. */
+
+
+@import "../PROJECTVAR/3-color-overrides.scss";       // /* 3. */
+@import "../PROJECTVAR/4-noncolor-overrides.scss";    // /* 3. */
+
 @import "animations.scss";
+
 @import "mixins.scss";
+
 @import "controls.scss";

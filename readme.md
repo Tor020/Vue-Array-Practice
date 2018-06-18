@@ -18,6 +18,8 @@ for webpack config example [here](https://github.com/vuejs/vue-cli/blob/dev/docs
 - [Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
 - [Vue-Docs for Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
 - [scss vs sass](https://stackoverflow.com/questions/5654447/whats-the-difference-between-scss-and-sass)
+- [sass-maps](https://www.sitepoint.com/using-sass-maps/)
+- [Best Sass Guide i've ever seen](https://anotheruiguy.gitbooks.io/sassintherealworld_book-i/handy-tools/default-flag.html)
 
 #### Pug
 - [PrePros Boilerplate HTML](https://github.com/Tor020/preprosboilerplate/tree/master/Dev)
