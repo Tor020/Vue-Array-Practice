@@ -1,7 +1,6 @@
 <template lang='pug'>
 div.container
-  nav.nav
-  nav.sidebar
+  div.columns
     ul
       router-link(tag='li' active-class='active' to='/Home')
         a Home   
@@ -11,6 +10,7 @@ div.container
       router-link(tag='li' active-class='active' to='/Debug')
         a Debug
       hr
+      h3 Bulma Docs
       router-link(tag='li' active-class='active' to='/BulmaBlocks1')
         a Overview - BulmaBlocks 1
       router-link(tag='li' active-class='active' to='/BulmaBlocks2')
@@ -33,10 +33,11 @@ div.container
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+li{a{text-align:center;}}
 
-.sidebar{
-  display:flex;
-  
+h3{
+  text-align:center;
 }
+
 </style>

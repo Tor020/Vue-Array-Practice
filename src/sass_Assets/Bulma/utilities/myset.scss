@@ -13,19 +13,27 @@ $grey-darker: hsl(0, 0%, 21%);
 $grey-dark: hsl(0, 0%, 29%);
 $grey: hsl(0, 0%, 48%);
 $grey-light: hsl(0, 0%, 71%);
-$grey-lighter: hsl(0, 0%, 86%);
+$grey-lighter: hsla(0, 0%, 100%, 0.8);
 
 
 
-$white-ter: hsl(0, 0%, 96%);
-$white-bis: hsl(0, 0%, 98%);
+$white-ter: hsla(0, 0%, 100%, 0.8);
+$white-bis: hsla(0, 0%, 100%, 0.8);
 
+
+$text:hsla(0, 0%, 100%, 0.8);
+$text-light: hsla(0, 0%, 100%, 0.8); 
+$text-strong: hsla(0, 0%, 100%, 0.8); 
 
 
 $white: hsl(211, 33%, 16%);
-$background:hsl(190, 41%, 17%); 
+$background:hsl(190, 41%, 17%);
 
+$title-color:$text;
+$subtitle-color:$text;
 
+$box-background-color: $tablehead;
+$message-background-color:$tablehead;
 
 
 $orange: hsl(20, 100%, 56%);

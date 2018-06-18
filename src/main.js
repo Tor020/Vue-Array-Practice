@@ -22,10 +22,12 @@ new Vue({
 }).$mount('#root')
 
 
+let list = document.querySelectorAll('label.label');
 
 
 
 
+f
 
 
 
