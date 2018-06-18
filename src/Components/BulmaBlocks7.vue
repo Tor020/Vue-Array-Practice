@@ -1,8 +1,8 @@
 <template lang="pug">
-div.container
+div.main
   hr 
   li
-    a(href='https://bulma.io/documentation/Components/') Components
+    a(href='https://bulma.io/documentation/components/') Components
   p
   ul
     li

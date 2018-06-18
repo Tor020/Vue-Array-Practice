@@ -1,5 +1,6 @@
 <template lang="pug">
-.targets
+div.targets.main
+  hr
   div.js-target
     h1 Javascript Target
     | class name and id 

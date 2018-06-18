@@ -55,7 +55,7 @@
   // $code-background:ಠ;
   // $pre:ಠ;
   // $pre-background:ಠ;
-  // $link:ಠ;
+  $link:$green;
   // $link-invert:ಠ;
   // $link-visited:ಠ;
   // $link-hover:ಠ;
@@ -70,7 +70,7 @@
   // $body-background-color:ಠ;
   // $body-color:ಠ;
   // $hr-background-color:ಠ;
-  // $strong-color:ಠ;
+  // $strong-color:darken($green,25%);
 
 /* Box */
 
@@ -145,7 +145,7 @@
 
 /* Table */
 
-  // $table-color:ಠ;
+  $table-color:$text;
   // $table-background-color:ಠ;
   // $table-cell-heading-color:ಠ;
   // $table-head-cell-color:ಠ;
@@ -164,12 +164,12 @@
 /* Title */
 
   // $title-color:ಠ;
-  // $title-strong-color:ಠ;
+  // $title-strong-color:blue;
 
 /* Subtitle */
 
   // $subtitle-color:ಠ;
-  // $subtitle-strong-color:ಠ;
+  $subtitle-strong-color:darken($green,25%);
 
 /* Breadcrumb */
 

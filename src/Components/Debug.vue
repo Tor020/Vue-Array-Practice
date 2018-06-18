@@ -1,5 +1,6 @@
 <template lang="pug">
-div
+div.main
+  hr
   input(type='button' value='checkಠ' @click='ಠ()')
   input(type='button' value ='clearΦ' @click='Φ()')
   input(type='button' value ='darkᛥ' @click='ᛥ()')

@@ -1,5 +1,5 @@
 <template lang="pug">
-div.container
+div.main
   hr
   li
     a(href='https://bulma.io/documentation/modifiers/') Modifiers
