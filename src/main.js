@@ -3,7 +3,6 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import Input from "./InputTest-DeleteLater.vue"
 
 
 import style from './sass_Assets/style.scss';  //retarded error
@@ -23,7 +22,7 @@ Vue.config.productionTip = false;
 
 
 new Vue({
-  render: h => h(Input)
+  render: h => h(App)
 }).$mount('#root')
 
 
