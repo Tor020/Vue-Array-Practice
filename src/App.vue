@@ -34,23 +34,26 @@ div.columns
 </template>
 
 <style lang="scss" scoped>
-.navColumn{
-  margin-top:1.5rem;
+.navColumn {
+  margin-top: 1.5rem;
 }
 
-li{a{
-  text-align:center;}}
-.sidenav{
-  text-decoration:none;
-  list-style:none;
-  a{
+li {
+  a {
+    text-align: center;
+  }
+}
+.sidenav {
+  text-decoration: none;
+  list-style: none;
+  a {
     // color:
   }
 }
 
-h3, li{
-  margin-left:1rem;
+h3,
+li {
+  margin-left: 1rem;
   // text-align:center;
 }
-
 </style>
