@@ -1,3 +1,9 @@
+#Specfics of this Readme
+
+## To be Added to Practice Files 
+[Example of usiing enumerability with for in vs for of and objects having own properties  that are theirs vs inherited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+____
+
 
 [Link to fleshed out Vue Repo](https://github.com/Tor020/Webpack3-Cli-Vue) 
 
