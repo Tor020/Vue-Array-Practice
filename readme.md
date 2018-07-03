@@ -1,8 +1,30 @@
-#Specfics of this Readme
+# Specifics of this Readme
 
 ## To be Added to Practice Files 
-[Example of usiing enumerability with for in vs for of and objects having own properties  that are theirs vs inherited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
-____
+- [Example of usiing enumerability with for in vs for of and objects having own properties  that are theirs vs inherited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+_________________
+- [Dom walker MDN Snippet](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker#Example)
+- [Slightly More Complex Dom Walker](https://gist.github.com/Tor020/dba961ce514cbd802b712b4bac55c79d)
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+- [] ()
+
+_________________
 
 
 [Link to fleshed out Vue Repo](https://github.com/Tor020/Webpack3-Cli-Vue) 
