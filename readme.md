@@ -5,7 +5,7 @@
 _________________
 - [Dom walker MDN Snippet](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker#Example)
 - [Slightly More Complex Dom Walker](https://gist.github.com/Tor020/dba961ce514cbd802b712b4bac55c79d)
-
+<!---
 - [] ()
 
 - [] ()
@@ -25,7 +25,7 @@ _________________
 - [] ()
 
 _________________
-
+--->
 
 [Link to fleshed out Vue Repo](https://github.com/Tor020/Webpack3-Cli-Vue) 
 
