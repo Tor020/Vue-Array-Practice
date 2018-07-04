@@ -9,10 +9,14 @@ _________________
 ### Dom Walkers
 - [Dom walker MDN Snippet](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker#Example)
 - [Slightly More Complex Dom Walker](https://gist.github.com/Tor020/dba961ce514cbd802b712b4bac55c79d)
-_________________
-<!---
-- [] ()
 
+_________________
+
+- [Get all user defined window properties - Copy and paste this into the console, or after the scripts are run on the page](https://stackoverflow.com/questions/17246309/get-all-user-defined-window-properties/17246535#17246535)
+
+_________________
+
+<!---
 - [] ()
 
 - [] ()
