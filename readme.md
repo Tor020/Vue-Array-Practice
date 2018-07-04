@@ -14,7 +14,7 @@ _________________
 
 - [Get all user defined window properties - Copy and paste this into the console, or after the scripts are run on the page](https://stackoverflow.com/questions/17246309/get-all-user-defined-window-properties/17246535#17246535)
 _________________
-### Logging
+### Logging Function Call Count
 
 - [Decorator Snippet to Count function calls](https://stackoverflow.com/a/8528845/6837572)
 _________________
