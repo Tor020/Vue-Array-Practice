@@ -1,3 +1,15 @@
+
 module.exports = {
-  compiler:true
+  // productionTip:false,
+  // debug:true,
+  compiler:true,
+  lintOnSave:true,
+  // sourceMap:true,
+  productionSourceMap: true,
+  vueLoader:{
+
+
+  },
+
+  outputDir: './build',     // where to output built files
 }

@@ -6,10 +6,17 @@ div.main
   input(type='button' value ='darkᛥ' @click='ᛥ()')
   input(type='button' value ='lightѼ' @click='Ѽ()')
 
+
+
 </template>
 
 
 <script>
+// http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/
+import {arr_Obj_People as people} from '../PracticeFiles/Premade-Data/PracticeData.js'
+
+
+
 
 
 export default {
@@ -23,7 +30,7 @@ export default {
 runMethod() {
         // Start of Run Method        
 
-
+      
 
 
 

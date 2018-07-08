@@ -17,10 +17,14 @@ _________________
 ### Logging Function Call Count
 
 - [Decorator Snippet to Count function calls](https://stackoverflow.com/a/8528845/6837572)
-_________________
 
+_________________
+### Apply Call Bind
+
+- [Flesh out more Call Apply Bind Usage Some basics already established](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
+
+_________________
 <!---
-- [] ()
 
 - [] ()
 
