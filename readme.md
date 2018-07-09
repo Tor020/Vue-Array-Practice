@@ -2,27 +2,52 @@
 
 ## To be Added to Practice Files 
 
-### Usage of hasownproperties for inherit vs own
-- [Example of usiing enumerability with for in vs for of and objects having own properties  that are theirs vs inherited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+### Functional Stuff
+
+-[PointFree](https://medium.freecodecamp.org/how-point-free-composition-will-make-you-a-better-functional-programmer-33dcb910303a)
+-[readability](https://medium.freecodecamp.org/make-your-code-easier-to-read-with-functional-programming-94fb8cc69f9d)
+
+---------------
+
+
+### Class vs Factory
+
+-[factoryvsclass](https://medium.freecodecamp.org/class-vs-factory-function-exploring-the-way-forward-73258b6a8d15)
+
+---------------
+
+### Decorators
+
+-[Actually Contains Decorator Snippets_General Decorators Pt2](https://hackernoon.com/function-decorators-part-2-javascript-fadd24e57f83)
+-[Sort of pertains to decorators_General Decorators Pt1 ](https://hackernoon.com/transforming-callbacks-into-promises-and-back-again-e274c7cf7293)
+
+-[More Decorator Snipptes](https://medium.freecodecamp.org/here-are-a-few-function-decorators-you-can-write-from-scratch-488549fe8f86)
+
+-[Github File About Decorator](https://github.com/wycats/javascript-decorators)
+
+
+-[log decorator maynotwork](https://survivejs.com/react/appendices/understanding-decorators/)
+-[Different but same may not work](https://blog.jeremyfairbank.com/javascript/javascript-es7-function-bind-syntax/)
+-[Different but same may not work:REVENGEANCE](https://cabbageapps.com/fell-love-js-decorators/)
+
+
+
+[Note about decorators at bottom of article ->>> Apparently it's a very good idea to always write decorators in a context agnostic format  according to](http://raganwald.com/2013/01/03/function_and_method_decorators.html)
+
+
 _________________
 
-### Dom Walkers
-- [Dom walker MDN Snippet](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker#Example)
-- [Slightly More Complex Dom Walker](https://gist.github.com/Tor020/dba961ce514cbd802b712b4bac55c79d)
-_________________
-### Examine window object but only user defined additions
 
-- [Get all user defined window properties - Copy and paste this into the console, or after the scripts are run on the page](https://stackoverflow.com/questions/17246309/get-all-user-defined-window-properties/17246535#17246535)
-_________________
-### Logging Function Call Count
-
-- [Decorator Snippet to Count function calls](https://stackoverflow.com/a/8528845/6837572)
-
-_________________
 ### Apply Call Bind
+
+- [Decorators for usage with Call Apply](https://javascript.info/call-apply-decorators)
 
 - [Flesh out more Call Apply Bind Usage Some basics already established](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
 
+### Usage of hasownproperties for inherit vs own
+- [Example of usiing enumerability with for in vs for of and objects having own properties  that are theirs vs inherited](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties)
+
+_________________
 _________________
 <!---
 
