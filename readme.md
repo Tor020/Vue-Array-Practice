@@ -2,6 +2,11 @@
 
 ## To be Added to Practice Files 
 
+### Console Thing
+
+- https://stackoverflow.com/questions/7505623/colors-in-javascript-console
+
+
 ### Functional Stuff
 
 -[PointFree](https://medium.freecodecamp.org/how-point-free-composition-will-make-you-a-better-functional-programmer-33dcb910303a)
