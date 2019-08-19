@@ -85,6 +85,10 @@ https://github.com/vuejs/vue-cli/tree/dev/docs/config
 for webpack options list [here](https://github.com/vuejs/vue-cli/tree/dev/docs/config)
 for webpack config example [here](https://github.com/vuejs/vue-cli/blob/dev/docs/guide/webpack.md#simple-configuration)
 
+#### Design stuff
+ - [list](https://designtarget.org)
+
+
 
 #### Sass
 - [Sass](https://github.com/vuejs/vue-cli/blob/dev/docs/css.md)
